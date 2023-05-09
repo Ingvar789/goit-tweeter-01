@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/goit-tweeter-01/static/css/main.98d2440e.css",
-    "main.js": "/goit-tweeter-01/static/js/main.6a3d54eb.js",
+    "main.js": "/goit-tweeter-01/static/js/main.0743169d.js",
     "static/js/415.26c5f4df.chunk.js": "/goit-tweeter-01/static/js/415.26c5f4df.chunk.js",
     "static/css/620.b1b2b2fb.chunk.css": "/goit-tweeter-01/static/css/620.b1b2b2fb.chunk.css",
     "static/js/620.685177f6.chunk.js": "/goit-tweeter-01/static/js/620.685177f6.chunk.js",
@@ -10,7 +10,7 @@
     "static/media/goit-logo.svg": "/goit-tweeter-01/static/media/goit-logo.e917114d7945c04c85a8946a331d28b6.svg",
     "index.html": "/goit-tweeter-01/index.html",
     "main.98d2440e.css.map": "/goit-tweeter-01/static/css/main.98d2440e.css.map",
-    "main.6a3d54eb.js.map": "/goit-tweeter-01/static/js/main.6a3d54eb.js.map",
+    "main.0743169d.js.map": "/goit-tweeter-01/static/js/main.0743169d.js.map",
     "415.26c5f4df.chunk.js.map": "/goit-tweeter-01/static/js/415.26c5f4df.chunk.js.map",
     "620.b1b2b2fb.chunk.css.map": "/goit-tweeter-01/static/css/620.b1b2b2fb.chunk.css.map",
     "620.685177f6.chunk.js.map": "/goit-tweeter-01/static/js/620.685177f6.chunk.js.map",
@@ -18,6 +18,6 @@
   },
   "entrypoints": [
     "static/css/main.98d2440e.css",
-    "static/js/main.6a3d54eb.js"
+    "static/js/main.0743169d.js"
   ]
 }
