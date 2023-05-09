@@ -1,27 +1,32 @@
 import { Suspense } from "react";
 import { Outlet } from "react-router-dom";
-import { Container, Header, Link, Loading, Main } from "./Layout.styled";
+import { Link } from "react-router-dom";
+import css from "./Layout.module.css";
 
 export const Layout = () => {
   return (
-    <Container>
-      <Header>
-        <nav>
-          <ul>
+    <div>
+      <header className={css.headerLayout}>
+        <nav className={css.navLayout}>
+          <ul className={css.ulLayout}>
             <li>
-              <Link to="/">Home</Link>
+              <Link className={css.navLink} to="/">
+                Home
+              </Link>
             </li>
             <li>
-              <Link to="/tweets">Tweets</Link>
+              <Link className={css.navLink} to="/tweets">
+                Tweets
+              </Link>
             </li>
           </ul>
         </nav>
-      </Header>
-      <Main>
-        <Suspense fallback={<Loading>Loading...</Loading>}>
+      </header>
+      <div className={css.main}>
+        <Suspense fallback={<div className={css.loading}>Loading...</div>}>
           <Outlet />
         </Suspense>
-      </Main>
-    </Container>
+      </div>
+    </div>
   );
 };

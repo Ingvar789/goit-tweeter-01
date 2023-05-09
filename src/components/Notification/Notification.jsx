@@ -1,10 +1,10 @@
-import "./Warning.css";
+import css from "./Notification.module.css";
 
 import PropTypes from "prop-types";
 
 export default function Warning({ message }) {
   return (
-    <section className="Warning">
+    <section className={css.notification}>
       <p>{message}</p>
     </section>
   );

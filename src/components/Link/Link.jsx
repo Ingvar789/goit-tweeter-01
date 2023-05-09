@@ -1,10 +1,10 @@
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
-import "./BackLink.css";
+import css from "./Link.module.css";
 
 const BackLink = ({ to, children }) => {
   return (
-    <Link to={to} className="BackLink">
+    <Link to={to} className={css.link}>
       {children}
     </Link>
   );

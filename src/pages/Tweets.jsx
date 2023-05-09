@@ -1,12 +1,12 @@
 import { useState, useEffect, useRef } from "react";
 import { useLocation } from "react-router-dom";
 import { getUsers, updateUser } from "../api/mockapi";
-import BackLink from "../components/BackLink";
-import CardsList from "../components/CardsList";
-import Info from "../components/Info";
-import Loader from "../components/Loader";
-import LoadMoreButton from "../components/LoadMoreButton";
-import Warning from "../components/Warning";
+import BackLink from "../components/Link/Link";
+import CardsList from "../components/Cards/Cards";
+import Info from "../components/CardContent/CardContent";
+import Loader from "../components/Loader/Loader";
+import LoadMoreButton from "../components/LoadMore/LoadMore";
+import Notification from "../components/Notification/Notification";
 import Select from "react-select";
 
 const Tweets = () => {
@@ -116,17 +116,19 @@ const Tweets = () => {
           onChange={(option) => selectOption(option.value)}
         />
       </section>
-      <h1 className="App__title">Tweets</h1>
-      <CardsList tweets={visibleUsers} updateTweet={updateTweet} />
-      {pending ? (
-        <Loader waitingNote="Loading  more tweets..." />
-      ) : errorStatus ? (
-        <Warning message={error.message} />
-      ) : currentPage > 3 ? (
-        <Info message="End of tweet list" />
-      ) : (
-        <LoadMoreButton onClick={onLoadMoreTweets} />
-      )}
+      <div className="TweeterContainer">
+        <h1 className="App__title">Tweets</h1>
+        <CardsList tweets={visibleUsers} updateTweet={updateTweet} />
+        {pending ? (
+          <Loader waitingNote="Loading  more tweets..." />
+        ) : errorStatus ? (
+          <Notification message={error.message} />
+        ) : currentPage > 3 ? (
+          <Info message="End of tweet list" />
+        ) : (
+          <LoadMoreButton onClick={onLoadMoreTweets} />
+        )}
+      </div>
     </>
   );
 };

@@ -1,10 +1,10 @@
-import "./Info.css";
+import css from "./CardContent.module.css";
 
 import PropTypes from "prop-types";
 
 export default function Info({ message }) {
   return (
-    <section className="Info">
+    <section className={css.info}>
       <p>{message}</p>
     </section>
   );

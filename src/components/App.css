@@ -8,7 +8,12 @@
 .App__title {
   text-transform: uppercase;
 }
-
+.TweeterContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+}
 .Service {
   display: flex;
   gap: 32px;

@@ -1,13 +1,13 @@
-.Cards {
+.cards {
   padding: 16px 0;
 }
 
-.Cards__list {
+.cardsList {
   list-style: none;
   padding: 0;
   margin: 0 auto;
   display: grid;
   grid-gap: 16px;
-  max-width: calc(100vw - 48px);
+  max-width: 80vw;
   grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
 }

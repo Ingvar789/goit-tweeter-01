@@ -1,0 +1,60 @@
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.headerLayout {
+  padding: 8px 16px;
+  margin-bottom: 16px;
+  background-color: #ebd8ff;
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14),
+    0 1px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.navLayout {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.ulLayout {
+  display: flex;
+  gap: 12px;
+  padding-left: 0;
+  list-style: none;
+}
+.navLink {
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #5736a3;
+  font-style: normal;
+  font-weight: 700;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    color: #ebd8ff;
+    background-color: #5736a3;
+  }
+  &.active {
+    color: #ebd8ff;
+    background-color: #5736a3;
+  }
+}
+.loading {
+  width: 150px;
+  height: 50px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #808080;
+  border-radius: 5px;
+  color: #808080;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 16px;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 8px 16px;
+}

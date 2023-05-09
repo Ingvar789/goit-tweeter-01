@@ -1,13 +1,12 @@
 import PropTypes from "prop-types";
-import "./CardsList.css";
+import css from "./Cards.module.css";
 import Card from "../Card/Card";
 
 export default function CardsList(props) {
   const { tweets, updateTweet } = props;
-
   return (
-    <section className="Cards">
-      <ul className="Cards__list">
+    <section className={css.cards}>
+      <ul className={css.cardsList}>
         {tweets.map(({ id, user, tweets, followers, isfollowing, avatar }) => (
           <li key={id}>
             <Card
@@ -32,7 +31,7 @@ CardsList.propTypes = {
       user: PropTypes.string.isRequired,
       tweets: PropTypes.number.isRequired,
       followers: PropTypes.number.isRequired,
-      isfollowing: PropTypes.bool.isRequired,
+      isfollowing: PropTypes.bool,
       avatar: PropTypes.string.isRequired,
     })
   ).isRequired,

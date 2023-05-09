@@ -1,11 +1,11 @@
 import { RotatingLines } from "react-loader-spinner";
-import "./Loader.css";
+import css from "./Loader.module.css";
 
 import PropTypes from "prop-types";
 
 export default function Loader({ waitingNote }) {
   return (
-    <div className="Loader">
+    <div className={css.loader}>
       <RotatingLines
         strokeColor="grey"
         strokeWidth="5"

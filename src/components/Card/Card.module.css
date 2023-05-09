@@ -1,4 +1,4 @@
-.Card {
+.card {
   position: relative;
   width: 380px;
   height: 460px;
@@ -11,13 +11,13 @@
   border-radius: 20px;
 }
 
-.Card__logo {
+.cardLogo {
   position: absolute;
   left: 20px;
   top: 20px;
 }
 
-.Card__delimiter {
+.cardDelimiter {
   position: absolute;
   left: 0;
   top: 214px;
@@ -28,7 +28,7 @@
     inset 0px -1.71846px 3.43693px #ae7be3, inset 0px 3.43693px 2.5777px #fbf8ff;
 }
 
-.Card__imgwrapper {
+.cardImgWrapper {
   position: absolute;
   box-sizing: content-box;
   display: flex;
@@ -49,7 +49,7 @@
     inset 0px 4.39163px 3.29372px #fbf8ff;
 }
 
-.Card__img {
+.cardImg {
   display: block;
   width: 62px;
   height: auto;
@@ -57,14 +57,14 @@
   box-shadow: 0 -2.19582px 4.39163px #ae7be3;
 }
 
-.Card__data {
+.cardData {
   position: absolute;
   text-align: center;
   top: 284px;
   width: 100%;
 }
 
-.Card__txt {
+.cardTxt {
   margin-top: 0;
   margin-bottom: 16px;
   font-style: normal;
@@ -75,7 +75,7 @@
   color: #ebd8ff;
 }
 
-.Card__button {
+.cardButton {
   width: 196px;
   height: 50px;
   background: #ebd8ff;
@@ -92,6 +92,19 @@
   cursor: pointer;
 }
 
-.Card__button--following {
+.cardButtonFollowing {
+  width: 196px;
+  height: 50px;
   background: #5cd3a8;
+  box-shadow: 0px 3.436px 3.436px rgba(0, 0, 0, 0.25);
+  border: 0;
+  border-radius: 10px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #373737;
+  cursor: pointer;
 }

@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import "./Card.css";
+import css from "./Card.module.css";
 import goitLogo from "../../images/goit-logo.svg";
 
 export default function Card(props) {
@@ -11,24 +11,23 @@ export default function Card(props) {
   }
 
   return (
-    <div className="Card">
-      <img src={goitLogo} alt="GoIt Logo" className="Card__logo" />
-      <div className="Card__imgwrapper">
-        <img src={avatar} alt={user} className="Card__img" />
+    <div className={css.card}>
+      <img src={goitLogo} alt="GoIt Logo" className={css.cardLogo} />
+      <div className={css.cardImgWrapper}>
+        <img src={avatar} alt={user} className={css.cardImg} />
       </div>
-      <div className="Card__delimiter"></div>
-      <div className="Card__data">
-        <p className="Card__txt">{numberWithSeparator(tweets)} tweets</p>
-        <p className="Card__txt">{numberWithSeparator(followers)} followers</p>
+      <div className={css.cardDelimiter}></div>
+      <div className={css.cardData}>
+        <p className={css.cardTxt}>{numberWithSeparator(tweets)} tweets</p>
+        <p className={css.cardTxt}>
+          {numberWithSeparator(followers)} followers
+        </p>
         {isfollowing ? (
-          <button
-            className="Card__button Card__button--following"
-            onClick={onHandleClick}
-          >
+          <button className={css.cardButtonFollowing} onClick={onHandleClick}>
             following
           </button>
         ) : (
-          <button className="Card__button" onClick={onHandleClick}>
+          <button className={css.cardButton} onClick={onHandleClick}>
             follow
           </button>
         )}
@@ -41,7 +40,7 @@ Card.propTypes = {
   user: PropTypes.string.isRequired,
   tweets: PropTypes.number.isRequired,
   followers: PropTypes.number.isRequired,
-  isfollowing: PropTypes.bool.isRequired,
+  isfollowing: PropTypes.bool,
   avatar: PropTypes.string.isRequired,
   onHandleClick: PropTypes.func.isRequired,
 };
