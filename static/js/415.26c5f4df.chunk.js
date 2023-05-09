@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgoit_tweeter_01=self.webpackChunkgoit_tweeter_01||[]).push([[415],{415:function(e,t,c){c.r(t);var s=c(184);t.default=function(){return(0,s.jsxs)(s.Fragment,{children:[(0,s.jsx)("h1",{className:"App__title",children:"Welcome"}),(0,s.jsx)("p",{className:"App__welcome",children:'To open cards click on the menu "Tweets".'})]})}}}]);
+//# sourceMappingURL=415.26c5f4df.chunk.js.map
