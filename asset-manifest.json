@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Ingvar789/goit-tweeter-01/static/css/main.98d2440e.css",
-    "main.js": "/Ingvar789/goit-tweeter-01/static/js/main.32e21919.js",
-    "static/js/415.26c5f4df.chunk.js": "/Ingvar789/goit-tweeter-01/static/js/415.26c5f4df.chunk.js",
-    "static/css/620.48dfc60c.chunk.css": "/Ingvar789/goit-tweeter-01/static/css/620.48dfc60c.chunk.css",
-    "static/js/620.685177f6.chunk.js": "/Ingvar789/goit-tweeter-01/static/js/620.685177f6.chunk.js",
-    "static/js/154.0f7f8f74.chunk.js": "/Ingvar789/goit-tweeter-01/static/js/154.0f7f8f74.chunk.js",
-    "static/media/background.png": "/Ingvar789/goit-tweeter-01/static/media/background.032662a2a907475127d7.png",
-    "static/media/goit-logo.svg": "/Ingvar789/goit-tweeter-01/static/media/goit-logo.e917114d7945c04c85a8946a331d28b6.svg",
-    "index.html": "/Ingvar789/goit-tweeter-01/index.html",
-    "main.98d2440e.css.map": "/Ingvar789/goit-tweeter-01/static/css/main.98d2440e.css.map",
-    "main.32e21919.js.map": "/Ingvar789/goit-tweeter-01/static/js/main.32e21919.js.map",
-    "415.26c5f4df.chunk.js.map": "/Ingvar789/goit-tweeter-01/static/js/415.26c5f4df.chunk.js.map",
-    "620.48dfc60c.chunk.css.map": "/Ingvar789/goit-tweeter-01/static/css/620.48dfc60c.chunk.css.map",
-    "620.685177f6.chunk.js.map": "/Ingvar789/goit-tweeter-01/static/js/620.685177f6.chunk.js.map",
-    "154.0f7f8f74.chunk.js.map": "/Ingvar789/goit-tweeter-01/static/js/154.0f7f8f74.chunk.js.map"
+    "main.css": "/ingvar789/goit-tweeter-01/static/css/main.98d2440e.css",
+    "main.js": "/ingvar789/goit-tweeter-01/static/js/main.8add4785.js",
+    "static/js/415.26c5f4df.chunk.js": "/ingvar789/goit-tweeter-01/static/js/415.26c5f4df.chunk.js",
+    "static/css/620.e5b9122a.chunk.css": "/ingvar789/goit-tweeter-01/static/css/620.e5b9122a.chunk.css",
+    "static/js/620.685177f6.chunk.js": "/ingvar789/goit-tweeter-01/static/js/620.685177f6.chunk.js",
+    "static/js/154.fed897e3.chunk.js": "/ingvar789/goit-tweeter-01/static/js/154.fed897e3.chunk.js",
+    "static/media/background.png": "/ingvar789/goit-tweeter-01/static/media/background.032662a2a907475127d7.png",
+    "static/media/goit-logo.svg": "/ingvar789/goit-tweeter-01/static/media/goit-logo.e917114d7945c04c85a8946a331d28b6.svg",
+    "index.html": "/ingvar789/goit-tweeter-01/index.html",
+    "main.98d2440e.css.map": "/ingvar789/goit-tweeter-01/static/css/main.98d2440e.css.map",
+    "main.8add4785.js.map": "/ingvar789/goit-tweeter-01/static/js/main.8add4785.js.map",
+    "415.26c5f4df.chunk.js.map": "/ingvar789/goit-tweeter-01/static/js/415.26c5f4df.chunk.js.map",
+    "620.e5b9122a.chunk.css.map": "/ingvar789/goit-tweeter-01/static/css/620.e5b9122a.chunk.css.map",
+    "620.685177f6.chunk.js.map": "/ingvar789/goit-tweeter-01/static/js/620.685177f6.chunk.js.map",
+    "154.fed897e3.chunk.js.map": "/ingvar789/goit-tweeter-01/static/js/154.fed897e3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.98d2440e.css",
-    "static/js/main.32e21919.js"
+    "static/js/main.8add4785.js"
   ]
 }
