@@ -8,7 +8,7 @@ import { BrowserRouter } from "react-router-dom";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename="ingvar789/goit-tweeter-01">
+    <BrowserRouter basename="/goit-tweeter-01">
       <App />
     </BrowserRouter>
   </React.StrictMode>
