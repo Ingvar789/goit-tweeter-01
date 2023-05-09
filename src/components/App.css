@@ -1,0 +1,20 @@
+.App__title,
+.App__welcome {
+  text-align: center;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.77);
+}
+
+.App__title {
+  text-transform: uppercase;
+}
+
+.Service {
+  display: flex;
+  gap: 32px;
+  justify-content: space-between;
+}
+
+.Filter {
+  width: 240px;
+}
